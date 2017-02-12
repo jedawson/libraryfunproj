@@ -1,0 +1,48 @@
+Where to find your favorite book:
+(basically user profile has set of books, each book will tell you what library to find at)
+
+-Form for inputing:
+  -creating users: UN, PW
+-Form for book insert:
+  -input book title
+  -ibsn
+  -author
+  -publish data
+  -publisher
+  -page count
+  -library location
+
+  VIEWS:
+  -login/register form
+
+  -profile page with books
+    -input form for books
+    -
+
+  TEST DATA STRUCTURE:
+
+    Book collection
+    {
+      _id : val,
+      ibsn : val,
+      author : val,
+      publish_date : val,
+      page_count : val,
+      library locations : val,
+      img: val (string path name to img),
+      active : val (bool)
+    }
+
+    user collection
+    {
+      _id : val,
+      user_name : val,
+      password : val
+    }
+
+    User Library collection
+    {
+      _id : val,
+      user_id : val, (foreign key to user collection)
+      book_ids : [...vals] (foreign keys to books collection)
+    }
