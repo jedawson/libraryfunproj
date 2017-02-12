@@ -1,0 +1,27 @@
+{
+  "name": "libraryfunproj",
+  "version": "0.0.1",
+  "description": "This is a project to build a fun online library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedawson/libraryfunproj.git"
+  },
+  "keywords": [
+    "library"
+  ],
+  "author": "joanathan, ben",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedawson/libraryfunproj/issues"
+  },
+  "homepage": "https://github.com/jedawson/libraryfunproj#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.22"
+  }
+}
